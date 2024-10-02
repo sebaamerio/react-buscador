@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.header__form {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 400px;
+  margin: 10px;
+}
+
+.footer {
+  margin: 20px;
+}
+
+.footer__text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
